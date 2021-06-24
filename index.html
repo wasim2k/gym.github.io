@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet"
+<link rel="stylesheet" href="gym/style.css">
+<style>
+  body{
+      font-family: 'Baloo Bhai 2', cursive;
+      color:white;
+      margin: 0px;
+      padding: 0px;
+      background: url('gymlogo.jpg');
+      background-repeat: no-repeat;
+      
+      {% comment %} height: 4554px; {% endcomment %}
+  }
+  .left{
+      display:inline-block;
+      border:2px solid black;
+      position:absolute;
+      left: 60px;
+      top: 22px; 
+      {% comment %} color:pink; {% endcomment %}
+      
+  }
+  .left img{
+      width: 100px;
+  }
+  .left div{
+     font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  
+  .mid{
+      color:green;
+      display:block;
+      width:33%;
+      margin: 35px auto;
+      {% comment %} border: 2px solid green; {% endcomment %}
+
+  }
+  .right{
+      position: absolute;
+      right: 30px;
+      top: 22px; 
+      {% comment %} border:2px solid yellow; {% endcomment %}
+  }
+  .btn{
+      font-family: 'Baloo Bhai 2', cursive;
+      margin: 0px 9px;
+      {% comment %} color: white; {% endcomment %}
+      border: 2px solid grey;
+      border-radius: 10px;
+      cursor: pointer;
+
+  }
+  .btn:hover{
+      background-color: grey
+          
+      
+  }
+   .navbar{
+        display: inline-block:
+    }
+
+   .navbar li{
+       display: inline-block;
+       font size: 25px;
+ }
+   .navbar li a{
+       color: white;
+      text-decoration: none;
+      padding: 10px 3px;
+   }
+      .navbar li a:hover, .navbar li a.hover{
+      color: grey;
+      text-decoration:none;
+
+
+    }
+
+    .container{
+    border:2px solid green;
+    margin: 169px 45px;
+    padding: 30px 55px;
+    border: 2px solid grey;
+    width: 33%;
+    border-radius: 40px;
+}
+.form-group input{
+
+    text-align:center;
+    display: block;
+    padding: 3px;
+    width: 408px; 
+    margin: 10px auto;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button {
+    text-align: center;
+    width:93%;
+    padding: 3px;
+    display: block;
+    margin: auto;
+
+}
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+    <img src="logo.jpg" alt="">
+    <div>WAsim fitness</div>
+     </div>
+    <div class="mid">
+    <ul class="navbar">
+              
+          <li><a href ='#'class = "active"> Home </a></li>
+          <li><a href ='#'> Fitness calculator <a/></li>
+          <li><a href ='#'> About <a/></li>
+          <li><a href ='#'> contact us <a/></li>
+          
+    </ul>
+    </div>
+    <div class="right">
+    <button class="btn">Call Us</button>
+    <button class="btn">Email Us</button>
+    </div>
+    </header>
+    <div class="container">
+    <h1>Join the best gym of delhi</h1>
+    <form action="noaction.php"
+          <div class="form-group">
+          <input type ="text" name="" placeholder="Enter your Name"
+          </div>
+          <div class="form-group">
+          <input type ="text" name="" placeholder="Enter your Gender"
+          </div>
+          <div class="form-group">
+          <input type ="text" name="" placeholder="Enter your Locality"
+          </div>
+          <div class="form-group">
+          <input type ="text" name="" placeholder="Enter your Age"
+          </div>
+          <button class="btn">Submit</button>
+
+    </form>
+    </div>
+    
+</body>
+</html>
